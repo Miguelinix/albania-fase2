@@ -1,0 +1,4 @@
+Negro #000000
+Blanco #ffffff
+Verde #49cb1c
+Café #1a0805

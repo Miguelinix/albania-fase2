@@ -1,0 +1,424 @@
+*{
+	margin:0;
+	padding: 0;
+	position: relative;
+	font-family: 'Product Sans Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.principal{
+	background-image: url('../img/Albania10.png');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	display: flex;
+	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.principal:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.5;
+}
+
+.principal h1{
+	position: relative;
+	font-size: 50px;
+	text-align: center;
+
+	color: white;
+	
+}
+.principal h4{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+
+	color: yellow;
+	
+}
+/*NOSOTROS*/
+.nosotros{
+	
+	background-image: url('../img/Albania4.png');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: 70%;
+
+	position: relative;
+	display: flex;
+	align-items: center;
+	
+	
+}
+.nosotros:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.3;
+}
+.nosotros .info{
+	padding: 5%;
+	background: #49cb1c;
+	margin-right: 25%;
+	margin-left: 25%;
+
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 20px 20px 10px 10px rgba(0,0,0,0.7);
+	transition: 0.4s;
+}
+.nosotros .info:hover{
+
+	transform: scale(1.03);
+}
+.nosotros .info h1{
+	font-size: 3vw;
+	color: black;
+	text-align: center;
+}
+.nosotros .info p{
+	color: white;
+	text-align: justify;
+	margin-top: 5%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+.form{
+	line-height: 2rem;
+	margin-top: 4%;
+	text-align: center;
+	
+	margin-right: 65%;
+	margin-left: 15%;
+
+
+}
+.form div{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.form:hover div{
+	background-color: black;
+    color: white;
+    
+}
+.form a{
+	color: black;
+	text-decoration: none;
+}
+/* galería-eventos */
+.GaleriaEventos{
+	
+	background: url('../img/fondo.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-position: 70%;
+	background-attachment: fixed;
+	position: relative;
+	
+	display: flex;
+ 	justify-content: flex-end;
+	
+}
+.GaleriaEventos:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.6;
+}
+.GaleriaEventos .galeria{
+	margin-left: 10%;
+
+}
+.GaleriaEventos .galeria, .eventos{
+	padding: 2%;
+	background: white;
+	margin-top: 12%;
+	border-radius: 6px 6px 6px 6px;
+	margin-bottom: 15%;
+	margin-right: 5%;
+
+	transition: 0.4s;
+}
+.GaleriaEventos .galeria:hover, .eventos:hover{
+	-webkit-box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0, 0, 0, 0.47);
+    transform: scale(1.03);
+}
+.GaleriaEventos .galeria h1, .eventos h1{
+	font-size: 3vw;
+	color: green;
+	text-align: center;
+	margin-top: 5%;
+}
+.GaleriaEventos .galeria p, .eventos p{
+	text-align: justify;
+
+	margin-top: 5%;
+}
+.galev{
+	line-height: 2rem;
+	margin-top: 4%;
+
+	
+	margin-right: 70%;
+	margin-left: 5%;
+
+
+}
+.galev div{
+	font-weight: bold;
+	transition: 0.5s;
+}
+.galev:hover div{
+	
+    color: #49cb1c;
+    
+}
+.galev a{
+	color: black;
+	text-decoration: none;
+}
+
+/* Creadores */
+
+.creadoress{
+	background: url('../img/tejinaCDB.png');
+	width: 100%;
+	height: 100vh;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center right;
+	position: relative;
+	
+	display: flex;
+ 	
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.creadoress:before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.6;
+}
+.creadoress .img{
+	margin-right: 20%;
+	background: none;
+	margin-left: 5%;
+	transition: 0.4s;
+}
+.creadoress .img:hover{
+	transform: scale(1.03);
+}
+.creadoress img{
+
+}
+.creadoress img:hover{
+	filter: drop-shadow(0px 1px 7px rgb(255, 255, 255));
+}
+.creadoress .info{
+	background-color: white;
+	margin-left: 15%;
+	padding: 2%;
+	margin-right: 15%;
+	border-radius: 4px 4px 4px 4px;
+	transition: all ease 0.5s;
+}
+.creadoress .info h1{
+	font-size: 3vw;
+	color: green;
+	text-align: center;
+	margin-top: 5%;
+}
+.creadoress .info p{
+
+	text-align: justify;
+	margin-top: 5%;
+}
+.creadoress .info:hover{
+	-webkit-box-shadow: 10px 10px 7px 2px rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 1px 18px rgb(255, 255, 255);
+    transform: scale(1.03);
+}
+.conocerlo{
+	line-height: 2rem;
+	margin-top: 4%;
+	text-align: center;
+	
+	margin-right: 55%;
+	
+
+}
+.conocerlo div{
+	border: 1px solid green;
+	border-radius: 3px 3px 3px 3px;
+	font-weight: bold;
+	color: green;
+	transition: 0.5s;
+}
+.conocerlo:hover div{
+	background-color:green;
+
+    color: white;
+    
+}
+.conocerlo a{
+	color: black;
+	text-decoration: none;
+}
+
+
+
+@media (max-width: 1200px){
+	.GaleriaEventos .galeria, .eventos{
+		margin-top:15%;
+		margin-bottom: 15%;
+		margin-right: 5%;
+	}
+}
+@media (max-width: 1125px){
+	.GaleriaEventos .galeria, .eventos{
+		margin-top:15%;
+		margin-bottom: 18%;
+		margin-right: 5%;
+	}
+}
+@media (max-width: 1064px){
+	.nosotros .info{
+		padding: 5%;
+		background: #49cb1c;
+		margin-right: 20%;
+		margin-left: 20%;
+
+		box-shadow: 20px 20px 10px 10px rgba(0,0,0,0.7);
+	}
+
+	.form{
+		line-height: 2rem;
+		margin-top: 4%;
+		text-align: center;
+		
+		margin-right: 50%;
+		margin-left: 15%;
+	}
+
+	.GaleriaEventos .galeria, .eventos{
+		margin-top:15%;
+		margin-bottom: 17%;
+		margin-right: 5%;
+	}
+}
+@media (max-width: 968px){
+	.GaleriaEventos .galeria, .eventos{
+		margin-top:20%;
+		margin-bottom: 22%;
+		margin-right: 5%;
+	}
+}
+@media (max-width: 768px){
+	.nosotros{
+		background-position: center;
+	}
+	.nosotros .info h1{
+		font-size: 22px;
+	}
+	.creadoress{
+	
+		
+		display: flex;
+	 	flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.creadoress .info{
+		background-color: white;
+		margin-right: 8%;
+		margin-left: 8%;
+		
+	}
+	.creadoress .img img{
+		width: 170px;
+	}
+	.creadoress .img{
+		margin-left: 25%;
+	}
+	.creadoress .info h1{
+		font-size: 28px;
+	}
+
+	.GaleriaEventos{
+		background-position: center;
+		background-attachment: fixed;
+		position: relative;
+		
+		display: flex;
+	 	justify-content: flex-end;
+		
+	}
+
+
+	.GaleriaEventos .galeria, .eventos{
+		margin-top:28%;
+		margin-bottom:28%;
+		margin-right: 5%;
+
+	}
+
+	.GaleriaEventos .galeria h1, .eventos h1{
+		font-size: 22px;
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	.galev{
+		line-height: 2rem;
+		margin-top: 4%;
+		margin-right: 30%;
+	}
+	
+}
+@media (max-width: 632px){
+	.GaleriaEventos{
+		
+		display: flex;
+		flex-direction: column;
+	 	justify-content: flex-end;
+		
+	}
+	.GaleriaEventos .eventos{
+		margin-bottom: 15%;
+
+	}
+	.GaleriaEventos .galeria{
+		margin-bottom: 0%;
+	}
+	.GaleriaEventos .galeria, .eventos{
+		padding: 2%;
+		background: white;
+		margin-top: 12%;
+
+		
+		margin-left: 10%;
+		transition: 0.4s;
+	}
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=New+Tegomin&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+html::-webkit-scrollbar{
+    width:8px;
+    border-radius:15px; 
+}
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(175, 175, 175);
+    border-radius:20px;
+}
+
+#eventos-albania{
+    font-family:'New tegomin';
+    width:100%;
+    height:650px;
+    background-image: url("../img/fondo-eventos.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+#imagen{
+    width:70%;
+    text-align: center;
+    margin: 0 auto;
+}
+#imagen .logo{
+    width:100%;
+    height:auto;
+    
+}
+#titulo{
+    text-align: center;
+}
+#titulo .title-eventos{
+    font-size:4em;
+    color:rgb(0, 230, 219);
+    text-shadow: 2px 1px 2px rgb(7, 7, 7);
+}
+#info-eventos{
+    font-family:'New tegomin';
+    background-color:rgb(231, 231, 231);
+}
+#info-eventos h1{
+    margin-left:20px;
+}
+#card1{
+    width:80%;
+    height:60%;
+    margin-left:150px;
+    margin-top:20px;
+    border:1.9px solid black;
+    border-radius:30px;
+}
+#card1 .image-card{
+    width:20%;
+    height:20%;
+    border-right:2px solid rgb(30, 172, 238);
+}
+#card1 .image-card img{
+    width:200px;
+    height:200px;
+    border-radius:30px;
+}
+#card1 .text-card{
+    width:75%;
+    height:200px;
+    float:right;
+    margin-top:-200px;
+    margin-right:10px;
+    overflow-y: scroll;
+}
+#card1 .text-card::-webkit-scrollbar{
+    width:8px;
+    border-radius:15px; 
+}
+#card1 .text-card::-webkit-scrollbar-thumb{
+    background-color: rgb(232, 233, 233);
+    border-radius:60px;
+}
+#card1 .text-card p{
+    text-align:justify;
+    padding:5px 5px;
+}

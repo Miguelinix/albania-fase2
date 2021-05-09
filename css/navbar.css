@@ -1,0 +1,145 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400';
+
+ *{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    top:0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background:black;
+
+
+}
+#btn-menu{
+    display: none;
+}
+#inicio{
+    display: none;
+}
+header label{
+    display: none; 
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px solid #fff;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.6);
+}
+
+#log{
+    display: none;
+}
+.menu{
+     justify-content: center;
+
+}
+
+.menu ul{
+    margin: 0;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    display: flex;
+   
+    justify-content: center;
+
+}
+.menu #logoAlb{
+    background: url('../img/Laberinto.png');
+    background-size:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: 12%;
+ 
+}
+
+.menu li a{
+    display: block;
+    
+    padding: 30px 2vw;
+    color: #fff;
+    text-decoration: none;
+
+    transition: 0.2s;
+}
+
+.menu a:hover{
+    color: #49cb1c;
+}
+
+
+.menu #active{
+    color: #49cb1c;
+
+}
+
+.menu #active:hover{
+    color: white;
+   
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px){
+    header label{
+        display: block;
+        padding: 20px 20px;
+        filter: invert(100%);
+        float: left;
+    }
+
+    #log{
+        display: block;
+        margin-left: 45%;
+    }
+    .menu{
+        position: absolute;
+        background: black;
+
+        width: 90%;
+        margin-left: -90%;
+        transition: all 0.5s;
+    }
+    .menu #logoAlb{
+        display: none;
+    }
+    .menu #inicio{
+        display: block;
+    }
+    .menu ul{
+        flex-direction: column;
+        
+    }
+
+    .menu li{
+       
+        margin-left: 15%;
+        margin-right: 15%;
+        border-top: 1px solid #fff;
+
+    }
+    #btn-menu:checked ~ .menu{
+        margin-left: 0;
+        position: relative;
+
+    }
+    #linkLogo{
+        margin-right: 15%;
+        margin-left: 16%;
+        background: red;
+    }
+
+
+}
